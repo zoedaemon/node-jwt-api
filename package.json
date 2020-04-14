@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "env-cmd -f ./.env nodemon src/app.js",
-    "test": "env-cmd -f ./.env jest --testTimeout=10000 --testEnvironment=node"
+    "test": "env-cmd -f ./.env jest --testTimeout=10000 --testEnvironment=node --coverage"
   },
   "author": "Frank Atukunda",
   "license": "MIT",
