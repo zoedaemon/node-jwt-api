@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "env-cmd -f ./.env nodemon src/app.js"
+    "start": "env-cmd -f ./.env nodemon src/app.js",
+    "test": "env-cmd -f ./.env jest --testTimeout=10000 --testEnvironment=node"
   },
   "author": "Frank Atukunda",
   "license": "MIT",
@@ -17,6 +18,8 @@
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",
-    "nodemon": "^1.19.1"
+    "jest": "^25.3.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
   }
 }
