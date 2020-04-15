@@ -61,4 +61,10 @@ router.post('/users/me/logoutall', auth, async(req, res) => {
     }
 })
 
+
+router.get('/', async(req, res) => {
+    // View logged in user profile
+    res.status(200).send('Olla')
+})
+
 module.exports = router

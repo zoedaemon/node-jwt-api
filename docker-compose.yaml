@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  node-jwt-api:
+    build: .
+    ports:
+      - 8212:8212
+    image: node-jwt-api:development
+    volumes:
+      - ./:/go/src/node-jwt-api
+    hostname: localhost
+    environment:
+      - PORT=8212
+      - JWT_KEY=thisiskey
+      - MONGODB_URL=
+    container_name: node-jwt-api
+    
+networks:
+  default:
+    external:
+      name: nodejs_net
