@@ -1,5 +1,6 @@
 #  node-jwt-api
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=zoedaemon_node-jwt-api&metric=alert_status)](https://sonarcloud.io/dashboard?id=zoedaemon_node-jwt-api)
 
 ## Installation
 Based on [user-registration-api](https://github.com/fatukunda/user-registration-api)
