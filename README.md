@@ -6,7 +6,7 @@
 Based on [user-registration-api](https://github.com/fatukunda/user-registration-api)
 With some modifications and add docker for this project 
 
-do this for install all package 
+do this for install all package and generate package-lock.json
 ```sh
 $ npm install
 ```
